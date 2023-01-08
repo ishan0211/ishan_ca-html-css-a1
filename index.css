@@ -4,7 +4,8 @@ height: 125vh;
 margin-top: 80px;  
 padding: 30px;  
 background-size: cover;  
-font-family: sans-serif;  
+font-family: sans-serif; 
+background-color: yellow; 
 }  
 header {
 position: fixed;  
@@ -34,4 +35,9 @@ text-decoration: none;
 }
 .headerr{
     background-color: yellow;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 } 
