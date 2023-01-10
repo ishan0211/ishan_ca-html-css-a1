@@ -5,7 +5,6 @@ margin-top: 80px;
 padding: 30px;  
 background-size: cover;  
 font-family: sans-serif; 
-background-color: yellow; 
 }  
 header {
 position: fixed;  
@@ -33,11 +32,141 @@ text-decoration: none;
 .col{
     color: red;
 }
-.headerr{
-    background-color: yellow;
-}
 .cont{
     display: flex;
     align-items: center;
     justify-content: space-around;
-} 
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin: 14px;
+}
+.headerr{
+    position: relative;
+    width: 100%;
+    padding-top: 57px;
+    margin-top: -57px;
+    background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+    background-color: var(--color-secondary);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+}
+.styles{
+    display: flex;
+    flex-direction: column;
+
+}
+.styles_card{
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+    justify-content: space-around;
+}
+.styles_card_icon__Jt_3H {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.styles_card__hpklv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 184px;
+    height: 160px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+.styles_name__OTyeY {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-align: center;
+}
+.styles_add_more__5vDZp {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: 700;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+.styles_find__zT3eI {
+    margin-right: 4px;
+}
+a {
+    color: var(--font-color-link);
+    text-decoration: none;
+}
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height);
+    color: var(--font-color);
+    -webkit-font-smoothing: antialiased;
+}
+.styles_container__TOMue {
+    --layout-topbar: 56px;
+    --layout-startbar: 200px;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    min-height: 100vh;
+    padding-top: var(--layout-topbar);
+}
+* {
+    box-sizing: border-box;
+}
+.styles_container{
+    width: 1200px;
+}
+.styles-module_container__EvXjS {
+    width: 960px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+:root {
+    --color-primary: #ee3425;
+    --color-primary-1: #ee3425;
+    --color-primary-2: #ee3425;
+    --color-secondary: #fbdc00;
+    --color-secondary-1: #ebbe00;
+    --font-color: #434343;
+    --font-color-heading: #000;
+    --font-color-link: var(--color-primary);
+    --font-family: "PT Sans",sans-serif;
+    --font-family-heading: "Ubuntu",sans-serif;
+    --font-size-xl: 18px;
+    --font-size-lg: 16px;
+    --font-size-md: 14px;
+    --font-size-sm: 12px;
+    --font-size-xs: 10px;
+    --line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+    color: var(--font-color-heading);
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.styles_register_login__F_Jck {
+    /* display: flex; */
+    align-items: center;
+    margin-right: 16px;
+    cursor: pointer;
+}
