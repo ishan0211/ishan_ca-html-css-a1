@@ -491,3 +491,371 @@ h3 {
     padding: 8px 42px;
     border-radius: 4px;
 }
+
+/* videos */
+.video{
+    position: relative;
+    cursor: pointer;
+    /* background-color: rgba(0,0,0,.4); */
+ }
+ 
+ .play_button{
+    position: absolute;
+    display: flex;
+    /* margin-top:8px; */
+     align-items: center; 
+    justify-content: center; 
+    background-color: rgba(0,0,0,.4);
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+ }
+ .video_below{
+    background: #ee3425;
+    position: relative;
+    /* display:flex; */
+    margin-top:-15px;
+    margin-bottom: 40px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 50px;
+ }
+ .grow_fast{
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    /* color: #fff; */
+    padding: 0px;
+    justify-content: space-between;
+ }
+ .grow_fast h3{
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .grow_fast p{
+    color: #fff;
+    font-size: 16px;
+ }
+ .grow_fast a{
+    display: flex;
+    height: 36px;
+    background: #fbdc00;
+    /* border: 1px solid red; */
+    /* border-radius: 5px; */
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 6px 9px;
+    /* border: none; */
+    text-decoration: none;
+    color: #000;
+    font-size:14px;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 700;
+ }
+ /* subscribe */
+ .subscribe{
+    display: flex;
+    background: #fbdc00;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 120px;
+    /* border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; */
+ }
+ .human{
+    padding: 20px;
+    margin: 20px;
+ }
+ .newsletter h3{
+    font-size:28px;
+    margin-bottom: 5px;
+    
+ }
+ .miss{
+    font-size: 16px;
+    font-family: "PT Sans",sans-serif;
+    color: #434343;
+    /* margin: ; */
+ }
+ .email_id{
+    display: flex;
+    margin-top: 20px;
+    /* width: 240px; */
+ }
+ .email_id input[type=email]{
+    box-sizing: border-box;
+     display: inline-block;
+     width: 250px;
+     height: 36px;
+     padding: 10px;
+     border: 2px solid transparent;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     outline: none;
+ }
+ .email_id button[type=submit]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    padding: 4px 16px;
+    border: 2px solid red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #ee3425;
+    cursor: pointer;
+ }
+ ul.col_1 li a:link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ .box_social_media {
+    margin-left: 1200px;
+    
+ }
+ 
+ a.col:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+ }
+ a.col:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+ a.col:hover {
+  color: red;
+  --font-weight:bolder;
+  background-color: transparent;
+ }
+ a.col:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+ }
+ ul.col_1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ ul.col_2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ ul.col_3 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ ul.col{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ .col_1 {
+    display: flex;
+    padding: 0px 0px 0;
+    flex-direction: column;
+ }
+ .col_2 {
+    display: flex;
+    padding: 0px 0px 0px 75px;
+    flex-direction: column;
+ }
+ .col_3 {
+    display: flex;
+    padding: 0px 0px 0px 75px;
+    flex-direction: column;
+ }
+ .col {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 20px 30px 0;
+    background-color: #ebbe00;
+ }
+ ul.tab_1 {
+    list-style-type: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 50px;
+ }
+ ul.tab_2 {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+ }
+ ul.tab_3 {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+ }
+ ul.tab_4 {
+    list-style-type: none;
+    margin-left:  50px;
+    padding: 0;
+ }
+ ul.tab_5 {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+ }
+ .box_upper_footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 35px 10px 50px;
+    font-family: var(--font-family);
+    background: #fbdc00;
+ }
+ .list_1 {
+    margin-right: 0px;
+ }
+ .list_2 {
+    margin-right: 0px;
+ }
+ .list_3 {
+    margin-right: 00px;
+ }
+ .list_4 {
+    margin-right: 0px;
+ }
+ .list_5 {
+    margin-right: 0px;
+    
+ }
+ .product {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 0px;
+    padding: 0 50px;
+ }
+ .Partners {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 50px;
+ }
+ .Company {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 50px;
+ }
+ .Knowledge_center{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 50px;
+ }
+ .Cross_border_Logistic {
+    font-weight: bold;
+ }
+ .Domestic_Logistics {
+    font-weight: bold;
+ 
+ }
+ .Supply_Chain_Solutions{
+    font-weight: bold;
+ }
+ .Financial_Sevice{
+    font-weight: bold;
+ }
+ .Our_Logistics_Providers{
+    font-weight: bold;
+ }
+ .Partnership_Program{
+    font-weight: bold;
+ }
+ .Resources{
+    font-weight: bold;
+ }
+ ul.tab_1 li{
+    padding: 5px;
+ }
+ ul.tab_2 li{
+    padding: 5px;
+ }
+ ul.tab_3 li{
+    padding: 5px;
+ }
+ ul.tab_4 li{
+    padding: 5px;
+ }
+ ul.tab_5 li{
+    padding: 5px;
+ }
+ .how_it_works {
+    width: 1200px;
+ }
+ .before_footer{
+    display: flex;
+    background: #ebbe00;
+    align-items: center;
+    padding: 20px 50px 0;
+    justify-content: space-around;
+    list-style-type: none;
+ }
+ 
+ .ports{
+   margin-bottom: 4px;
+ }
+ 
+ .ports li{
+    line-height: 2rem;
+    font-size: 14px;
+    color: #000;
+    font-family: "PT Sans",sans-serif;
+    cursor: pointer;
+ }
+ .ports li:hover{
+    color: red;
+ }
+ .footer{
+    background: #ebbe00;
+    padding: 20px 0px;
+ }
+ .footer_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 700;
+    font-family:"Ubuntu",sans-serif;
+ }
+ .exc_social_media{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+ }
+ .fleft
+ {
+    margin-left: 90px;
+    color: #434343;
+ }
+ .fmiddle{
+    display: flex;
+    margin-left:60px;
+    color: #000;
+    /* font-size:14px; */
+    padding:0px 0px 0px 40px;
+ }
+ .fmiddle li{
+    margin-right: 5px;
+    /* font-size: 12px;
+    font */
+ }
+ .social_media
+ {
+    margin-right: 70px;
+ }
