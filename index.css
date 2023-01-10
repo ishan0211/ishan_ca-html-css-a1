@@ -393,3 +393,101 @@ p {
 .styles_stage3__anVPg {
     margin-bottom: 120px;
 }
+/* blog */
+.styles_container__YcS5m.ui_fixed_container {
+    width: 1200px;
+}
+.styles_blog_container__3X_0M {
+    display: flex;
+    flex-direction: column;
+}
+.styles_heading__n9MVL {
+    text-align: center;
+}
+h3 {
+    font-size: 28px;
+    line-height: 1.2;
+}
+.styles_cards_container__1tjAy {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.styles_card__qp3LP {
+    width: calc(calc(100% / 3) - 20px);
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-align: start;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+}
+.styles_card__qp3LP a {
+    color: #000!important;
+    text-decoration: none;
+}
+.styles_card_thumbnail__zF8QZ {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: #fbdc00;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.styles_blog_card_content__eDCmr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+.styles_card_title__D5epU {
+    margin-bottom: 5px;
+    font-size: 16px!important;
+    color: var(--color-primary);
+}
+.styles_card_name__aq9WH {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #000!important;
+}
+.styles_overview__Cb6CL {
+    max-height: calc(1.4rem * 3);
+    overflow: hidden;
+}
+.styles_read_container__C9N_V {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.styles_read_more__6_oMk {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+.styles_card_title1__MR1j6 {
+    margin-bottom: 5px;
+    font-size: 14px!important;
+    color: #9a9a9a;
+}
+.styles-module_container__EvXjS {
+    width: 960px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.styles_button_container__NubT0 {
+    justify-content: center;
+    text-align: center;
+}
+.ui_button_container.ui_ps_themeType_primary {
+    color: #fff;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 8px 42px;
+    border-radius: 4px;
+}
